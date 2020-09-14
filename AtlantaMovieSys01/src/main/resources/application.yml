@@ -1,0 +1,14 @@
+#logging.level.org.springframework.web=DEBUG
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          okta:
+            client-id: {0oa1wj4fc86hKB0XT357}
+            client-secret: {IPoJTWwh4eTicjXg7BYdZtOgLWxNe7wJn9C2_rO_}
+            scope: openid, email, profile
+        provider:
+          okta:
+            issuer-uri: https://{https://dev-523561.okta.com}/oauth2/default
